@@ -1,0 +1,57 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0px;
+  list-style: none;
+}
+
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+.subheader {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 84px;
+}
+
+.subheader .subheader_logo {
+  display: flex;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader .subheader_official {
+  opacity: 0.5;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.subheader_call {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 14px;
+}
